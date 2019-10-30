@@ -1,0 +1,5 @@
+TACC:  Starting up job 4217027 
+TACC:  Starting parallel tasks... 
+IN DLPThe max error is 2.36634e-310
+Time taken to apply matvec:48.0579
+TACC:  Shutdown complete. Exiting. 

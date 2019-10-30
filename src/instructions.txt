@@ -1,0 +1,2 @@
+### COMPILAION ######
+mpicxx -o potential.o -c -fPIC  -wd1572 -xCORE-AVX2 -axMIC-AVX512,COMMON-AVX512 -O2 -g  -I/home1/apps/intel17/impi17_0/petsc/3.7/include -I/home1/apps/intel17/impi17_0/petsc/3.7/knightslanding/include -I/opt/intel/compilers_and_libraries_2017.4.196/linux/mpi/intel64/include -qopenmp potential.cc

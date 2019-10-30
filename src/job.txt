@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -J projectn32           # Job name
+#SBATCH -o test.o%j       # Name of stdout output file
+#SBATCH -e test.e%j       # Name of stderr error file
+#SBATCH -p normal          # Queue (partition) name
+#SBATCH -N 16              # Total # of nodes
+#SBATCH -n 32             # Total # of mpi tasks
+#SBATCH -t 00:05:00        # Run time (hh:mm:ss)
+#SBATCH --mail-user=dhwanit@ices.utexas.edu
+#SBATCH --mail-type=all    # Send email at begin and end of job
+
+export OMP_NUM_THREADS=12
+
+
+ibrun ./a.out        # Use ibrun instead of mpirun or mpiexec
+

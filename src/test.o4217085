@@ -1,0 +1,5 @@
+TACC:  Starting up job 4217085 
+TACC:  Starting parallel tasks... 
+The max error is 0.0282993
+Time taken to apply matvec:48.0338
+TACC:  Shutdown complete. Exiting. 
